@@ -1,0 +1,38 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0] - 2024-04-02
+
+### Released
+
+## [2.1] - 2024-04-06
+
+### Added
+
+- Data e ora in formato user-friendly al file di log
+- Stringhe "avviato" ed "eseguito", in base allo stato del programma, per ogni riga nel log
+- File requirements.txt
+- Parametro verbose da linea comando
+
+### Changed
+
+- Creazione tabelle nel db solamente quando quest'ultiimo non e' gia' presente
+- Utilizzo parametri sys.argv
+- La tabella del db precedente e' stata divisa in due
+
+## [3.1] - 2024-04-22
+
+### Fixed
+
+- Il programma ora gestisce correttamente due fogli excel
+
+## [4.1] - 2024-04-23
+
+### Added
+
+- Operazioni di select con relativo argomento da command line
+- File select_output.txt dove verra' salvato l'output della select effettuata sul db
