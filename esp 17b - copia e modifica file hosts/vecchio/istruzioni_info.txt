@@ -1,0 +1,26 @@
+copia e incolla il file hosts dal sistema alla cartella flussi
+
+modifica di questo file hosts
+
+127.0.0.1 localhost
+::1 localhost
+DECOMMENTARLE (dentro il file)
+
+dividi la stringa in 2, un numero e una stringa (split)
+coll = line.split(' ')
+			 separatore
+
+posizione ultimo elemento in una lista, -1
+
+4 print o 2 concatenate
+
+AGGIUNGI IP, NOME nel hosts (172.13.56)
+
+split del primo valore che si legge
+coll2 = coll[0].split('.')
+
+changelog versione 2.1
+
+nome consegna hosts2
+
+righe decommentate ma non vuote

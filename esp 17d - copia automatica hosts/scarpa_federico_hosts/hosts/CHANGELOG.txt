@@ -1,0 +1,36 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [2.1.0] - 2023-04-26
+
+### Added
+
+- Aggiunta una copia del file hosts nella cartella flussi del deploy.
+- Modificato tale file, decommentando le linee contenenti localhost.
+- Utilizzo del file hosts in flussi e non quello di sistema.
+- Aggiunta una riga contenente l'ip e il nome del computer.
+
+## [3.1.0] - 2023-05-10
+
+### Added
+
+- File hosts.new, creato in automatico.
+- In questo file, aggiunte le righe "127.0.0.1 www.google.it" e "127.0.0.1 nomecomputer".
+
+### Changed
+
+- Il programma non stampa più niente a schermo.
+- Il file hosts è stato rinominato in "hosts.old".
+- Il programma, in base alla platform di utilizzo, prende il contenuto del file hosts e lo copia nei file
+  hosts.old e hosts.new.
+- Spostata la funzione "nome_computer" fuori da quella "messaggio".
+
+### Removed
+
+- Linea contenente ip e nome computer nel file hosts.
