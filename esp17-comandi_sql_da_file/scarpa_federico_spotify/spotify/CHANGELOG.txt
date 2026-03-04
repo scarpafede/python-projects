@@ -1,0 +1,39 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0] - 2024-02-06
+
+### Released
+
+## [1.1] - 2024-02-07
+
+### Added
+
+- Creazione file ddl.sql
+
+## [1.2] - 2024-02-23
+
+### Added
+
+- Creazione e utilizzo di db e dbms
+
+### Removed
+
+- File csv e relative righe di codice che lo riguardavano
+- File ddl.sql
+
+## [1.3] - 2024-03-02
+
+### Added
+
+- File spotify.sql
+
+### Changed
+
+- Comandi nel file spotify.sql cambiati da 'INSERT INTO T1' a 'INSERT INTO spotify VALUES'
+- Utiilizzo comandi dal file spotify.sql
+- Separate la create e la drop table, ora attivabili con un argomento fornito da CLI

@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS stats_moodle
+CREATE TABLE stats_moodle (nome_quiz, nome_corso, apertura, q, tipo_di_domanda, nome_domanda, tentativi, indice_di_abilita, deviazione_standard, indice_delle_risposte_date_a_caso, peso_previsto, peso_effettivo, indice_di_discriminazione, efficienza_discriminante)
