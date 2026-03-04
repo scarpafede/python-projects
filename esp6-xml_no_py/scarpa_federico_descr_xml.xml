@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <bin>
+   ls
+   cp
+   </bin>
+   <dev>
+   fd0
+   hda
+   lp0
+   </dev>
+   <home>
+      <server>
+         <utente1>
+            <MieiProgrammi>
+            </MieiProgrammi>
+            prova.txt
+         </utente1>
+         <utente2>
+         </utente2>
+         <utente3>
+         </utente3>
+      </server>
+   </home>
+   bzimage
+   <usr>
+      <bin>
+      </bin>
+      <lib>
+      </lib>
+   </usr>   
+</root>

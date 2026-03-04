@@ -1,0 +1,25 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0.0] - 2023-09-23
+
+### Released
+
+
+## [2.1.0] - 2023-09-28
+
+### Added
+- Aggiunta rinomina del file bat esistente con data e ora, im modo da creare un backup
+
+### Fixed
+- Nomi variabili migliorati
+- Codice migliorato
+- Miglioramento file batch con echo e rem
+
+### Changed
+- Gestione del file in modalita' pythonic
+- Cambiato il nome del file bat da "creategdrivecdc.bat" a "creadrives.bat"

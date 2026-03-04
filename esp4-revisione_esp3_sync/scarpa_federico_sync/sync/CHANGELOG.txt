@@ -1,0 +1,28 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.1] - 2023-09-23
+
+### Released
+
+## [1.2] - 2023-10-15
+
+### Fixed
+
+- Il programma ora si esegue correttamente, motivo del problema citato nel punto successivo
+- Viene utilizzato, per concatenare due liste, il metodo list.append(), al 
+  contrario del += utilizzato in precedenza
+
+### Changed
+
+- Ora il programma non scrive più la linea vuota dell'alunn* WANG ZI RUI nel file bat
+- Utilizzo della funzione os.path.basename(__file__) per ricavare il nome del 
+  file python da scrivere nel log, prima veniva scritto a mano
+
+### Removed
+
+- Rimossa la definizione della funzione changename_date, inutile ai fini del programma
